@@ -1,4 +1,4 @@
-package com.nilesh.seekjob.assignment.controller.params;
+package com.nilesh.assignment.controller.params;
 
 import lombok.Data;
 

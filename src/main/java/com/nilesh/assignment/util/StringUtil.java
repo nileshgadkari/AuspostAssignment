@@ -1,4 +1,4 @@
-package com.nilesh.seekjob.assignment.util;
+package com.nilesh.assignment.util;
 
 public class StringUtil {
     public static boolean isBlank(String str) {

@@ -1,4 +1,4 @@
-package com.nilesh.seekjob.assignment.exception;
+package com.nilesh.assignment.exception;
 
 public class RequestValidationException extends RuntimeException{
     private String msg;

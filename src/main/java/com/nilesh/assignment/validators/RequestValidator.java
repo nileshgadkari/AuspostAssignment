@@ -1,7 +1,7 @@
-package com.nilesh.seekjob.assignment.validators;
+package com.nilesh.assignment.validators;
 
-import com.nilesh.seekjob.assignment.controller.params.Param;
-import com.nilesh.seekjob.assignment.exception.RequestValidationException;
+import com.nilesh.assignment.exception.RequestValidationException;
+import com.nilesh.assignment.controller.params.Param;
 import lombok.AllArgsConstructor;
 import lombok.val;
 import org.springframework.stereotype.Component;

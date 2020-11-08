@@ -1,4 +1,4 @@
-package com.nilesh.seekjob.assignment.model;
+package com.nilesh.assignment.model;
 
 import lombok.Data;
 

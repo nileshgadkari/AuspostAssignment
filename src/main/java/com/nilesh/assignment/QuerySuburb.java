@@ -1,4 +1,4 @@
-package com.nilesh.seekjob.assignment;
+package com.nilesh.assignment;
 
 public class QuerySuburb {
     private String lookupBy;

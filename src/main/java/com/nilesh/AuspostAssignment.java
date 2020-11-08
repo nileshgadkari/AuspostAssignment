@@ -1,4 +1,4 @@
-package com.nilesh.seekjob;
+package com.nilesh;
 
 import java.io.File;
 

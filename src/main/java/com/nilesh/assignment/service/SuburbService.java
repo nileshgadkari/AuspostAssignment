@@ -1,10 +1,10 @@
-package com.nilesh.seekjob.assignment.service;
+package com.nilesh.assignment.service;
 
-import com.nilesh.seekjob.assignment.controller.params.CreateSuburbParam;
-import com.nilesh.seekjob.assignment.controller.params.QuerySuburbParam;
-import com.nilesh.seekjob.assignment.dao.SuburbRepository;
-import com.nilesh.seekjob.assignment.model.Suburb;
-import com.nilesh.seekjob.assignment.util.StringUtil;
+import com.nilesh.assignment.dao.SuburbRepository;
+import com.nilesh.assignment.model.Suburb;
+import com.nilesh.assignment.util.StringUtil;
+import com.nilesh.assignment.controller.params.CreateSuburbParam;
+import com.nilesh.assignment.controller.params.QuerySuburbParam;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

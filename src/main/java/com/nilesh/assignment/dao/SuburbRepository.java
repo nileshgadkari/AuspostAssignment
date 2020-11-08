@@ -1,6 +1,6 @@
-package com.nilesh.seekjob.assignment.dao;
+package com.nilesh.assignment.dao;
 
-import com.nilesh.seekjob.assignment.model.Suburb;
+import com.nilesh.assignment.model.Suburb;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

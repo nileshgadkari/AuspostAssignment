@@ -1,7 +1,7 @@
-package com.nilesh.seekjob.assignment.validators;
+package com.nilesh.assignment.validators;
 
 
-import com.nilesh.seekjob.assignment.controller.params.Param;
+import com.nilesh.assignment.controller.params.Param;
 
 public interface Validator<T extends Param> {
     boolean isValid(T param);

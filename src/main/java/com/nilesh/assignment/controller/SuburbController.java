@@ -1,11 +1,11 @@
-package com.nilesh.seekjob.assignment.controller;
+package com.nilesh.assignment.controller;
 
-import com.nilesh.seekjob.assignment.controller.params.CreateSuburbParam;
-import com.nilesh.seekjob.assignment.controller.params.QuerySuburbParam;
-import com.nilesh.seekjob.assignment.exception.RequestValidationException;
-import com.nilesh.seekjob.assignment.model.Suburb;
-import com.nilesh.seekjob.assignment.service.SuburbService;
-import com.nilesh.seekjob.assignment.validators.RequestValidator;
+import com.nilesh.assignment.exception.RequestValidationException;
+import com.nilesh.assignment.controller.params.CreateSuburbParam;
+import com.nilesh.assignment.controller.params.QuerySuburbParam;
+import com.nilesh.assignment.model.Suburb;
+import com.nilesh.assignment.service.SuburbService;
+import com.nilesh.assignment.validators.RequestValidator;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
@@ -37,7 +37,7 @@ public class SuburbController {
     }
 
     @PostMapping("v{version}/suburb")
-    @PreAuthorize("#oauth2.hasScope('bar')")
+    @PreAuthorize("#oauth2.hasScope('admin')")
     public ResponseEntity<Suburb> saveSuburb(@RequestBody CreateSuburbParam createSuburbParam) {
         return ResponseEntity.status(HttpStatus.ACCEPTED).body(suburbService.saveSuburb(createSuburbParam));
     }

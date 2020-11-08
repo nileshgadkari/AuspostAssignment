@@ -1,7 +1,7 @@
-package com.nilesh.seekjob.assignment.validators;
+package com.nilesh.assignment.validators;
 
-import com.nilesh.seekjob.assignment.controller.params.QuerySuburbParam;
-import com.nilesh.seekjob.assignment.util.StringUtil;
+import com.nilesh.assignment.util.StringUtil;
+import com.nilesh.assignment.controller.params.QuerySuburbParam;
 import org.springframework.stereotype.Component;
 
 import java.util.function.Predicate;
