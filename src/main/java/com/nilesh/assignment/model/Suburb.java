@@ -1,13 +1,16 @@
 package com.nilesh.assignment.model;
 
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.List;
 
 @Entity
 @Data
-public class Suburb {
+@EqualsAndHashCode
+public class Suburb implements Serializable {
     @Id
     @GeneratedValue(generator = "suburb_id_seq", strategy = GenerationType.SEQUENCE)
     @SequenceGenerator(
